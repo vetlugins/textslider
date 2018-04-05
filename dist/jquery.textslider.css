@@ -1,0 +1,32 @@
+/**
+ * Created by vegas s on 04.04.2018.
+ ***********************************
+ */
+
+#textSlider {
+	position: relative;
+}
+#textSlider .item{
+	position: absolute;
+	height: inherit;
+}
+
+/**
+* Default theme
+*/
+#textSlider.items {
+	margin: 90px;
+	color: white;
+	height: inherit;
+}
+#textSlider .item h2{
+	font-size: 48px;
+	letter-spacing: 3px;
+	line-height: 67px;
+	text-transform: uppercase;
+}
+#textSlider .item  h3{
+	font-size: 30px;
+	line-height: 42px;
+	letter-spacing: 3px;
+}
